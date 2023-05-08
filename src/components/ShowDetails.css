@@ -1,0 +1,74 @@
+.show-details-container-custom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #181818;
+    color: #fff;
+  }
+  
+  .show-card-custom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    transition: background-color 0.2s ease-in-out;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .show-image-custom {
+    flex: 1;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .show-image-custom img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  .show-details-custom {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .show-details-custom h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .show-details-custom p {
+    margin: 0 0 20px;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .book-now-button-custom {
+    display: flex;
+    max-width: 40vw;
+    justify-content: center;
+    margin-top: auto;
+    padding: 10px;
+    background-color: #0077c2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .book-now-button-custom:hover {
+    background-color: #005ea6;
+  }
+  

@@ -1,0 +1,39 @@
+.booking-form-container {
+    background-color: #181818;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  
+  .booking-form-card {
+    background-color: #3d3d3d;
+    border-radius: 10px;
+    align-items: center;
+    padding: 20px;
+    width: 500px;
+  }
+  
+  .form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    margin-right: 10px;
+  }
+  
+  .form-group input {
+    flex: 1;
+    margin-left: 10px;
+  }
+  
+  .booking-form-submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  

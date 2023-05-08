@@ -1,0 +1,59 @@
+.container {
+  background-color: #181818;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.show-card {
+  width: calc(25% - 10px);
+  margin-bottom: 20px;
+  background-color: #333;
+  color: #fff;
+  transition: background-color 0.2s ease-in-out;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.show-card:hover {
+  background-color: #3d3d3d;
+}
+
+.show-image {
+  position: relative;
+}
+
+.show-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.show-details {
+  padding: 20px;
+}
+
+.show-details h3 {
+  margin-top: 0;
+}
+
+.show-details p {
+  margin: 0 0 10px;
+}
+
+.show-details button {
+  display: block;
+  padding: 10px;
+  background-color: #0077c2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.show-details button:hover {
+  background-color: #005ea6;
+}
